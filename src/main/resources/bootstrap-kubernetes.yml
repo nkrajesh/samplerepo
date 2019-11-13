@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: mongorepo
+  cloud:
+    config:
+      uri:  http://host.docker.internal:9099
+      
